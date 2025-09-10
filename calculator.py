@@ -3,9 +3,7 @@ class Calculator:
     self.a=a
     self.b=b
 
-  def add(self):
-      return self.a+self.b
-
-
+  add=lambda self:self.a+self.b
+  multiply=lambda self:self.a*self.b
 
 
